@@ -74,38 +74,27 @@ This project follows a **modular ETL architecture** orchestrated by Apache Airfl
 This pipeline transforms raw data into **actionable investment intelligence**:
 
 ### 1. Morning Market Briefing
-**Problem:**  
-Manual news reading takes 1–2 hours daily  
+**Problem:**  Manual news reading takes 1–2 hours daily  
 
-**Solution:**  
-AI-generated summaries in under 5 minutes for immediate decision-making  
+**Solution:**  AI-generated summaries in under 5 minutes for immediate decision-making  
 
 
 ### 2. Cross-Asset Correlation
-**Problem:**  
-Difficult to link macro events with multiple asset classes  
+**Problem:**  Difficult to link macro events with multiple asset classes  
 
-**Solution:**  
-Power BI enables visualization across:
-- Energy  
-- Metals  
-- Equities  
+**Solution:**  Power BI enables visualization across:  Energy   Metals  Equities  
 
 
 ### 3. Institutional Knowledge Base
-**Problem:**  
-Market context is lost over time  
+**Problem:**  Market context is lost over time  
 
-**Solution:**  
-PostgreSQL stores historical insights for long-term analysis  
+**Solution:**  PostgreSQL stores historical insights for long-term analysis  
 
 
 ### 4. Localized Macro Strategy
-**Problem:**  
-Language barriers limit accessibility  
+**Problem:**  Language barriers limit accessibility  
 
-**Solution:**  
-Dual-language (EN/TH) summaries for Thai investment teams  
+**Solution:**  Dual-language (EN/TH) summaries for Thai investment teams  
 
 
 ## 💡 Key Strength
