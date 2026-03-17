@@ -1,75 +1,124 @@
-🌍 MarketAgent AI: Global Intelligence Pipeline
-Automated Macro-Economic Monitoring & AI-Driven Insights (EN/TH)
+# 🌍 MarketAgent AI — Global Market Intelligence Pipeline
 
-<img width="1425" height="785" alt="image" src="https://github.com/user-attachments/assets/ac9f9f34-2796-4fc7-9a23-5ad4a89ea9f2" />
+---
+<img width="1429" height="788" alt="image" src="https://github.com/user-attachments/assets/ea8b0bb0-3933-4498-92f6-5ddbef1e3b76" />
 
-📌 Project Overview
-MarketAgent AI is an automated end-to-end data pipeline designed to combat Information Overload in the financial landscape. The system transforms massive streams of unstructured news from TradingEconomics into structured, high-level strategic summaries, enabling users to stay ahead of global macro shifts with zero manual effort.
+## 📌 Project Overview
 
-Core Data Flow:
-Data Source → Processing → Storage → Visualization
+**MarketAgent AI** is an automated end-to-end data pipeline designed to combat **information overload in financial markets**.
 
-Data Source: TradingEconomics (Real-time news stream)
+The system transforms massive streams of unstructured news from TradingEconomics into **structured, high-level strategic insights**, enabling faster and more informed investment decisions with zero manual effort.
 
-Processing: Python (Selenium) + Gemini AI (Summarization)
+---
 
-Orchestration: Apache Airflow (Automated Scheduling)
+## 🔄 Core Data Flow
 
-Storage: PostgreSQL (Relational Database)
+**Data Source → Processing → Storage → Visualization**
 
-Visualization: Power BI (Interactive Dashboard)
+- **Data Source:** TradingEconomics (real-time news stream)  
+- **Processing:** Python (Selenium) + Gemini AI (summarization)  
+- **Orchestration:** Apache Airflow (automated scheduling)  
+- **Storage:** PostgreSQL (relational database)  
+- **Visualization:** Power BI (interactive dashboard)  
 
-⚙️ Pipeline Architecture & Automation
-The project follows a modular ETL approach managed by Apache Airflow:
+---
 
-Extraction: Custom Python (Selenium) scraper to ingest dynamic web content from TradingEconomics.
+## ⚙️ Pipeline Architecture & Automation
 
-AI Enrichment: Utilizing the Gemini AI API (Free Tier) to perform automated sentiment analysis and thematic summarization in both English and Thai.
+This project follows a **modular ETL architecture** orchestrated by Apache Airflow:
 
-Orchestration: Airflow DAGs manage the automated scheduling, task dependencies, and retry logic to ensure daily data consistency.
+- **Extraction**  
+  Custom Python (Selenium) scraper for dynamic financial data  
 
-Storage: Processed insights are stored in PostgreSQL using Upsert (ON CONFLICT) logic to prevent duplication and maintain historical records.
+- **AI Enrichment**  
+  Gemini AI API for sentiment analysis and bilingual (EN/TH) summarization  
 
-Visualization: A Power BI Dashboard connected to PostgreSQL for real-time monitoring and historical trend analysis.
+- **Orchestration**  
+  Airflow DAGs manage scheduling, dependencies, and retry logic  
 
-🚀 Technical Highlights
-Cost-Efficient AI Strategy: Strategically implemented Gemini AI (Free Tier) to provide institutional-grade summarization with zero API overhead.
+- **Storage**  
+  PostgreSQL with **UPSERT (ON CONFLICT)** to prevent duplication  
 
-Automated Workflow: Fully hands-off execution via Airflow, moving from manual scripts to a managed, monitored pipeline.
+- **Visualization**  
+  Power BI dashboard for real-time monitoring and trend analysis  
 
-Robust Scraping: Configured Headless Chrome and WebDriverWait for stable data extraction from dynamic financial platforms.
+---
 
-Strategic Intelligence: Engineered prompts to extract specific categories such as Commodities (Energy, Metals) and Global Stock Markets (US, China, Europe, India, etc.).
+## 🚀 Technical Highlights
+
+- **Cost-Efficient AI Strategy**  
+  Leveraged Gemini AI (Free Tier) for zero-cost, high-quality summarization  
+
+- **Fully Automated Workflow**  
+  End-to-end pipeline with Airflow scheduling (no manual intervention)  
+
+- **Robust Web Scraping**  
+  Headless Chrome + WebDriverWait for stable extraction from dynamic sites  
+
+- **Strategic Intelligence Design**  
+  Prompt engineering to extract key categories:  
+  - Commodities (Energy, Metals)  
+  - Global Equities (US, China, Europe, India)  
+
 ---
 
 ## 🧰 Tech Stack
 
-- **Python** (pandas, selenium)  
-- **Airflow** (pipeline orchestration)  
-- **PostgreSQL** (data storage)  
-- **Power BI** (data visualization)  
-- **Gemini API** (AI analysis)
+- Python (pandas, selenium)  
+- Apache Airflow  
+- PostgreSQL  
+- Power BI  
+- Gemini API  
 
 ---
-📊 Use Case: Market Intelligence Command Center
-This pipeline transforms raw data into a strategic asset for financial professionals:
 
-1. Morning Market Briefing
-The Problem: Spending 1-2 hours manually reading global news before the market opens.
+## 📊 Use Case: Market Intelligence Command Center
 
-The Solution: MarketAgent AI delivers a structured summary of global events in under 5 minutes, allowing for immediate strategic action.
+This pipeline transforms raw data into **actionable investment intelligence**:
 
-2. Cross-Asset Correlation
-The Problem: Difficulty tracking how macro events (e.g., Fed policy) impact different assets simultaneously.
+### 1. Morning Market Briefing
+**Problem:**  
+Manual news reading takes 1–2 hours daily  
 
-The Solution: Integrated Power BI visualization helps analysts correlate AI-processed news themes with price movements across Energy, Metals, and Equities.
+**Solution:**  
+AI-generated summaries in under 5 minutes for immediate decision-making  
 
-3. Institutional Knowledge Base
-The Problem: Historical market context is often lost as news cycles move forward.
+---
 
-The Solution: Permanent storage in PostgreSQL creates a searchable database of past macro events and market reactions for long-term trend analysis.
+### 2. Cross-Asset Correlation
+**Problem:**  
+Difficult to link macro events with multiple asset classes  
 
-4. Localized Macro Strategy
-The Problem: High-quality macro analysis is often trapped behind language barriers.
+**Solution:**  
+Power BI enables visualization across:
+- Energy  
+- Metals  
+- Equities  
 
-The Solution: Automated Dual-Language (EN/TH) summaries enable instant communication of global shifts to local Thai stakeholders or investment committees.
+---
+
+### 3. Institutional Knowledge Base
+**Problem:**  
+Market context is lost over time  
+
+**Solution:**  
+PostgreSQL stores historical insights for long-term analysis  
+
+---
+
+### 4. Localized Macro Strategy
+**Problem:**  
+Language barriers limit accessibility  
+
+**Solution:**  
+Dual-language (EN/TH) summaries for Thai investment teams  
+
+---
+
+## 💡 Key Strength
+
+- End-to-end pipeline (data → AI → dashboard)  
+- Combines financial analysis with data engineering  
+- Real-world use case for investment workflow automation  
+
+-----
