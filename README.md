@@ -1,13 +1,11 @@
 # 🌍 MarketAgent AI — Global Market Intelligence Pipeline
-
+**Automated Macro-Economic Monitoring & LLM-Driven Insights (EN/TH)**
 
 <img width="1429" height="788" alt="image" src="https://github.com/user-attachments/assets/ea8b0bb0-3933-4498-92f6-5ddbef1e3b76" />
 
 ## 📌 Project Overview
 
-**MarketAgent AI** is an automated end-to-end data pipeline designed to combat **information overload in financial markets**.
-
-The system transforms massive streams of unstructured news from TradingEconomics into **structured, high-level strategic insights**, enabling faster and more informed investment decisions with zero manual effort.
+**MarketAgent AI** is an automated data pipeline designed to streamline **Information Overload** in financial markets. The system ingests unstructured news from TradingEconomics and transforms it into structured, high-level summaries. By integrating **LLMs** into the ETL process, it enables faster market monitoring and data-driven decision-making with minimal manual intervention.
 
 
 ## 🔄 Core Data Flow
@@ -15,7 +13,7 @@ The system transforms massive streams of unstructured news from TradingEconomics
 **Data Source → Processing → Storage → Visualization**
 
 - **Data Source:** TradingEconomics (real-time news stream)  
-- **Processing:** Python (Selenium) + Gemini AI (summarization)  
+- **Processing:** Python (Selenium) + Gemini AI **(LLM Summarization)** 
 - **Orchestration:** Apache Airflow (automated scheduling)  
 - **Storage:** PostgreSQL (relational database)  
 - **Visualization:** Power BI (interactive dashboard)  
@@ -100,7 +98,7 @@ This pipeline transforms raw data into **actionable investment intelligence**:
 ## 💡 Key Strength
 
 - End-to-end pipeline (data → AI → dashboard)  
-- Combines financial analysis with data engineering  
+- Hybrid Expertise: Combines Financial Domain Knowledge with Data Engineering and **LLM Implementation**.
 - Real-world use case for investment workflow automation  
 
 
