@@ -7,17 +7,22 @@ An end-to-end data pipeline for global market monitoring and AI-driven analysis
 ---
 
 ## 📌 Overview
-This project automates the collection, processing, and analysis of global market data.  
-It integrates web scraping, AI-generated insights, and database storage to support data-driven investment decisions.
+This project automates global market monitoring and transforms raw data into actionable insights.
 
+It helps investment professionals:
+- Track global market movements efficiently  
+- Reduce manual data collection  
+- Generate AI-driven summaries for faster decision making  
 ---
 
 ## ⚙️ Architecture
 
-TradingEconomics (Data Source)  
-→ Python Scraper (Selenium)  
-→ AI Analysis (Gemini)  
-→ PostgreSQL Database  
+Data Source → Processing → Storage → Visualization
+
+TradingEconomics  
+→ Python (Selenium Scraper)  
+→ Gemini AI (Summarization)  
+→ PostgreSQL  
 → Power BI Dashboard  
 
 ---
@@ -41,14 +46,6 @@ TradingEconomics (Data Source)
 - **Gemini API** (AI analysis)
 
 ---
-
-## 📂 Project Structure
-
-<img width="677" height="569" alt="image" src="https://github.com/user-attachments/assets/31a0906d-610f-45c9-996c-06bec82bec25" />
-
-
----
-
 ## 📊 Use Case
 
 This pipeline is designed for:
