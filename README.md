@@ -1,6 +1,6 @@
 # 🌍 MarketAgent AI — Global Market Intelligence Pipeline
 
----
+
 <img width="1429" height="788" alt="image" src="https://github.com/user-attachments/assets/ea8b0bb0-3933-4498-92f6-5ddbef1e3b76" />
 
 ## 📌 Project Overview
@@ -9,7 +9,6 @@
 
 The system transforms massive streams of unstructured news from TradingEconomics into **structured, high-level strategic insights**, enabling faster and more informed investment decisions with zero manual effort.
 
----
 
 ## 🔄 Core Data Flow
 
@@ -21,7 +20,6 @@ The system transforms massive streams of unstructured news from TradingEconomics
 - **Storage:** PostgreSQL (relational database)  
 - **Visualization:** Power BI (interactive dashboard)  
 
----
 
 ## ⚙️ Pipeline Architecture & Automation
 
@@ -42,7 +40,7 @@ This project follows a **modular ETL architecture** orchestrated by Apache Airfl
 - **Visualization**  
   Power BI dashboard for real-time monitoring and trend analysis  
 
----
+
 
 ## 🚀 Technical Highlights
 
@@ -60,7 +58,6 @@ This project follows a **modular ETL architecture** orchestrated by Apache Airfl
   - Commodities (Energy, Metals)  
   - Global Equities (US, China, Europe, India)  
 
----
 
 ## 🧰 Tech Stack
 
@@ -83,7 +80,6 @@ Manual news reading takes 1–2 hours daily
 **Solution:**  
 AI-generated summaries in under 5 minutes for immediate decision-making  
 
----
 
 ### 2. Cross-Asset Correlation
 **Problem:**  
@@ -95,7 +91,6 @@ Power BI enables visualization across:
 - Metals  
 - Equities  
 
----
 
 ### 3. Institutional Knowledge Base
 **Problem:**  
@@ -104,7 +99,6 @@ Market context is lost over time
 **Solution:**  
 PostgreSQL stores historical insights for long-term analysis  
 
----
 
 ### 4. Localized Macro Strategy
 **Problem:**  
@@ -113,7 +107,6 @@ Language barriers limit accessibility
 **Solution:**  
 Dual-language (EN/TH) summaries for Thai investment teams  
 
----
 
 ## 💡 Key Strength
 
@@ -121,4 +114,4 @@ Dual-language (EN/TH) summaries for Thai investment teams
 - Combines financial analysis with data engineering  
 - Real-world use case for investment workflow automation  
 
------
+
