@@ -1,0 +1,6 @@
+pandas
+selenium
+psycopg2-binary
+google-generativeai
+openpyxl
+sqlalchemy
